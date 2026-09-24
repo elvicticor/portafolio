@@ -95,7 +95,7 @@ Para el control visual, primero ejecuta `npm run preview` y después, en otra te
 
 - El CV se importa desde `CV VICTOR NIETO.pdf` y Vite genera su URL final.
 - La fotografía se importa desde `assets/perfil-portfolio.webp`; LinkedIn está configurado con el perfil `victor-nieto-773858258`.
-- El CV menciona séptimo y octavo semestre en secciones distintas; el sitio evita publicar un número hasta confirmarlo.
-- La experiencia en Finanzauto indica una duración de seis meses, pero no incluye fechas exactas.
+- El CV actualizado indica Ingeniería de Software 2023–2026, egresado en espera de grado. Su encabezado aún dice estudiante; el sitio usa el estado de la sección de formación.
+- Experiencia: Simon Movilidad (desarrollador en formación, trabajo actual; el CV registra siete meses) y Finanzauto (aprendiz universitario, seis meses). Faltan las fechas exactas. Trayectoria muestra Simon Movilidad primero, con el período «Actualidad».
 
 Estos pendientes no impiden compilar. El monograma reemplaza la fotografía y LinkedIn no se renderiza mientras su valor esté vacío.

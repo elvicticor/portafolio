@@ -9,7 +9,7 @@ export const portfolio = {
   name: "Victor Nieto",
   role: "Desarrollador Full Stack",
   tagline:
-    "Construyo aplicaciones web completas y automatizo su calidad: interfaces, APIs, bases de datos y pruebas E2E con una visión de producto de punta a punta.",
+    "Construyo aplicaciones web, desarrollo procesos ETL/ELT y automatizo pruebas: conecto software, datos y calidad de punta a punta.",
   location: "Bogotá, Colombia",
   email: "andresnietoquintero@gmail.com",
   phone: "+57 301 525 3523",
@@ -19,15 +19,15 @@ export const portfolio = {
   available: false,
 
   about: [
-    "Soy estudiante de Ingeniería de Software en la Universitaria de Colombia y desarrollador full stack con enfoque en ingeniería de datos. Diseño flujos ETL y ELT para extraer, transformar, integrar y modelar información, apoyándome en AWS para construir procesos de datos organizados y preparados para el análisis.",
-    "Conecto esos datos con bases SQL, APIs, Power BI y Excel para convertirlos en información útil. Complemento este perfil con desarrollo web y QA: construyo productos con React, TypeScript, Rust, Node.js y Python, y automatizo pruebas E2E con Cypress, Maestro Studio y LLMs.",
+    "Soy egresado de Ingeniería de Software de la Universitaria de Colombia, en espera de grado, y desarrollador full stack con enfoque en ingeniería de datos. En Simon Movilidad he desarrollado procesos ETL/ELT para Data Lake y Data Warehouse, trabajado en migraciones de bases de datos y dispositivos AVL, y apoyado tableros de BI con un stack que incluye Apache Druid, Kafka, PostgreSQL y AWS.",
+    "Complemento mi trabajo con datos con desarrollo web y automatización de calidad. En Finanzauto desarrollé pruebas E2E con Cypress y Maestro Studio, incorporé LLMs para generar casos de prueba y participé en revisión de código y mantenimiento de repositorios. También construyo proyectos propios con React, TypeScript, Rust, Node.js y Python.",
   ],
 
   skills: {
-    Frontend: ["TypeScript", "JavaScript", "React", "Astro", "Vite", "Tailwind CSS", "GSAP", "HTML5 y CSS3"],
-    Backend: ["Rust", "Axum", "Node.js", "Express", "Python", "Flask", "FastAPI", "C# y .NET", "C++"],
-    "Ingeniería de datos": ["ETL", "ELT", "AWS", "SQL", "PostgreSQL", "MySQL", "SQL Server", "Power BI", "Excel"],
-    "QA y herramientas": ["Cypress", "Maestro Studio", "Docker", "Git", "GitHub Actions", "Figma", "Postman", "AI / LLMs"],
+    Frontend: ["TypeScript", "JavaScript", "React", "Vue.js", "Astro", "Vite", "Tailwind CSS", "GSAP", "HTML5 y CSS3"],
+    Backend: ["Rust", "Axum", "Node.js", "Express", "Python", "Flask", "Django", "FastAPI", "C#", ".NET (básico)", "C++", "Go"],
+    "Ingeniería de datos": ["ETL / ELT", "Data Lake / Data Warehouse", "Apache Druid (OLAP)", "Apache Kafka", "Apache Airflow", "MinIO", "AWS", "SQL · PostgreSQL · MySQL · SQL Server", "Power BI · Excel"],
+    "QA y herramientas": ["Cypress", "Maestro Studio", "Docker", "Git", "GitHub Actions", "Figma", "Postman", "AI / LLMs", "Scrum · Jira · Trello"],
   },
   dataPipeline: [
     { label: "Fuentes", detail: "APIs · SQL · archivos" },
@@ -41,6 +41,11 @@ export const portfolio = {
 
   experience: [
     {
+      period: "Actualidad · Bogotá",
+      title: "Desarrollador en Formación · Simon Movilidad",
+      text: "Ingeniería de datos: desarrollo de procesos ETL/ELT para Data Lake y Data Warehouse, migración de bases de datos y dispositivos AVL, y apoyo en tableros de BI. Stack: Apache Druid, Kafka, PostgreSQL y AWS.",
+    },
+    {
       period: "6 meses · Bogotá",
       title: "Aprendiz Universitario · Finanzauto",
       text: "Desarrollo y QA: automatización E2E con Cypress y Maestro Studio, generación de casos de prueba con LLMs, revisión de código y mantenimiento de repositorios.",
@@ -53,9 +58,9 @@ export const portfolio = {
   ],
   education: [
     {
-      period: "2023 — Actualidad",
+      period: "2023 — 2026",
       title: "Ingeniería de Software",
-      text: "Universitaria de Colombia · Bogotá.",
+      text: "Universitaria de Colombia · Bogotá. Egresado en espera de grado.",
     },
     {
       period: "Cursos y certificaciones",
@@ -114,5 +119,5 @@ export const portfolio = {
     "SPRINT-1": "API REST con FastAPI y MongoDB, organizada en modelos, esquemas y rutas.",
     Proyecto4: "Guía inicial para crear una aplicación web con Python.",
   },
-  hidden: [],
+  hidden: ["portafolio"],
 } satisfies PortfolioConfig;

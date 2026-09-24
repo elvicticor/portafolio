@@ -81,5 +81,5 @@ En GitHub, selecciona **Settings → Pages → Source → GitHub Actions**. El s
 
 ## Pendiente antes de publicar
 
-- Confirmar el semestre actual, ya que el CV menciona séptimo y octavo semestre en secciones diferentes.
-- Añadir las fechas exactas de la experiencia en Finanzauto.
+- Añadir las fechas exactas de la experiencia en Finanzauto y Simon Movilidad.
+- Corregir el encabezado del CV que aún dice estudiante: el perfil y la formación indican egresado en espera de grado (2023–2026).
